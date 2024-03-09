@@ -16,6 +16,8 @@ THe code will be updated once it is complete.
 
 ## How to run this program
 
+Prior to running this script, make sure you have installed **numpy**, **pygame** and **scipy.spacial** libraries.
+
 Once the script is run, you will see a window with random nodes created. 
 Press 'i' on the keyboard and click a point on the window to set the start location.
 Similarly, press 'f' on the keyboard and click a point on the window to set the final/goal location.

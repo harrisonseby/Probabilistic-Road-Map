@@ -11,7 +11,8 @@ The system checks whether the line lies in free space or not. A graph is constru
 
 ## Drawbacks of this code
 
-This code only constructs the graph for the PRM. The next step is run a search algorithm like the A* or Dijkstra algorith.
+This code only constructs the graph for the PRM in the absence of obstacles.
+The next step is to include obstacles in the PRM graph construction and also run a search algorithm like the A* or Dijkstra algorith.
 The code will be updated once it is complete.
 
 ## How to run this program

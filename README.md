@@ -1,4 +1,4 @@
-# Probabilistic-Road-Map
+# Probabilistic-Road-Map-Visualization
 A visualization of the Probabilistic road map generation using pygame library.
 
 ## Theory

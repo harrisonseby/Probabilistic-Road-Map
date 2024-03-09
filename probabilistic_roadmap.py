@@ -96,18 +96,9 @@ def disp_cord(x,y):
     textRect.center = (1200, 30)
     screen.blit(text, textRect)
 
-
-
-
-
 # Set the initial parameters for PRM
 prm = PRMPlanner(num_samples=1000, num_neighbors=5, step_size=50, max_iters=1000)
 sample = prm.plan_sample()
-
-
-
-
-
 
 
 while running:
@@ -140,7 +131,6 @@ while running:
                     f_flag = True
                     print("Final coordinates",F)
                             
-    
     screen.fill(dark_gray) 
 
     #display mouse pointer coordinates

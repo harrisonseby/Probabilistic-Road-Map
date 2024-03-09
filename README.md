@@ -12,7 +12,7 @@ The system checks whether the line lies in free space or not. A graph is constru
 ## Drawbacks of this code
 
 This code only constructs the graph for the PRM. The next step is run a search algorithm like the A* or Dijkstra algorith.
-THe code will be updated once it is complete.
+The code will be updated once it is complete.
 
 ## How to run this program
 

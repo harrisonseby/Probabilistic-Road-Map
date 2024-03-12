@@ -46,9 +46,6 @@ class PRMPlanner:
     def plan_edges(self, start, goal, samples):
         
         self.edges = []
-        samples = [self.sample_configuration() for _ in range(self.num_samples)]
-        
-
         self.build_kd_tree()
 
         for s in samples:

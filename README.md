@@ -7,7 +7,7 @@ Probabilistic Roap Map (PRM) method starts by creating a free space with 'n' sam
 This generated node is then connected with the nearby nodes with a straight line.
 The system checks whether the line lies in free space or not. A graph is constructed in the end taking into consideration the start and goal points.
 
-![PRM](https://github.com/harrisonseby/Probabilistic-Road-Map/assets/69869649/b88a8a24-cdbc-4ea7-8f9c-4a73914eec0f)
+![pygamewindow2024-03-1311-57-01-ezgif com-crop](https://github.com/harrisonseby/Probabilistic-Road-Map/assets/69869649/1e87fd48-4eb6-4b69-aba2-1366c5787c57)
 
 ## Drawbacks of this code
 

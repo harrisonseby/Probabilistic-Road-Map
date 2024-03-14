@@ -6,11 +6,10 @@ import heapq
 
 # PRM Planner
 class PRMPlanner:
-    def __init__(self, num_samples, num_neighbors, step_size, max_iters):
+    def __init__(self, num_samples, num_neighbors, step_size):
         self.num_samples = num_samples
         self.num_neighbors = num_neighbors
         self.step_size = step_size
-        self.max_iters = max_iters
         self.samples = []
         self.edges = []
         self.start = None
@@ -117,7 +116,7 @@ def disp_cord(x,y):
 
 
 # Set the initial parameters for PRM
-prm = PRMPlanner(num_samples=2000, num_neighbors=8, step_size=2, max_iters=1000)
+prm = PRMPlanner(num_samples=2000, num_neighbors=8, step_size=2)
 sample = prm.plan_sample()
 
 

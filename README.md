@@ -7,12 +7,12 @@ Probabilistic Roap Map (PRM) method starts by creating a free space with 'n' sam
 This generated node is then connected with the nearby nodes with a straight line.
 The system checks whether the line lies in free space or not. A graph is constructed in the end taking into consideration the start and goal points.
 
-![pygamewindow2024-03-1311-57-01-ezgif com-crop](https://github.com/harrisonseby/Probabilistic-Road-Map/assets/69869649/1e87fd48-4eb6-4b69-aba2-1366c5787c57)
+![pygamewindow2024-03-1415-17-58-ezgif com-crop](https://github.com/harrisonseby/Probabilistic-Road-Map/assets/69869649/4d74cc46-62b8-431f-b38a-d9ea06e0ccdb)
 
 ## Drawbacks of this code
 
-This code only constructs the graph for the PRM in the absence of obstacles.
-The next step is to include obstacles in the PRM graph construction and also run a search algorithm like the Dijkstra algorithm.
+This code only constructs the graph and provide the optimized path in the absence of obstacles.
+The next step is to include obstacles in the PRM graph construction.
 The code will be updated once it is complete.
 
 ## How to run this program

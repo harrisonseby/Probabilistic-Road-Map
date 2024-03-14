@@ -117,7 +117,7 @@ def disp_cord(x,y):
 
 
 # Set the initial parameters for PRM
-prm = PRMPlanner(num_samples=5000, num_neighbors=5, step_size=2, max_iters=1000)
+prm = PRMPlanner(num_samples=2000, num_neighbors=8, step_size=2, max_iters=1000)
 sample = prm.plan_sample()
 
 
